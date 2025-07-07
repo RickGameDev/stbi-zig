@@ -1,0 +1,20 @@
+.{
+    .name = .PlugInZ_STBI,
+    .version = "0.0.0",
+    .fingerprint = 0xb04d554bd5c8fd8f, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.0-dev.920+b461d07a5",
+    .dependencies = .{
+        .stb = .{
+            .url = "https://github.com/nothings/stb/archive/master.tar.gz",
+            .hash = "N-V-__8AAO8tTgBJoAbyWoWhdnNsGrx_ql6PT0ZLfoz2ms6b",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        // For example...
+        //"LICENSE",
+        //"README.md",
+    },
+}
